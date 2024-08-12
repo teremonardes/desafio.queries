@@ -102,9 +102,9 @@ header {
  .grid-container{ 
     display: grid;
     
-    grid-template-areas: "menu menu"
-"header main"
-"footer footer";
+    grid-template-areas: "menu menu menu "
+"header main main"
+"footer footer footer";
 grid-template-columns: 12rem 1fr;
 
  }
